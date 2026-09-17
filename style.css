@@ -262,3 +262,47 @@ body {
 .feature-image-cloud {
   background-image: url("images/feat_1.jpg");
 }
+
+.feature-image-security {
+  background-image: url("images/feat_2.jpg");
+}
+
+.feature-image-performance {
+  background-image: url("images/feat_3.jpg");
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.footer {
+  width: 100%;
+  min-height: 47px;
+  padding: 14px 20px;
+  background-color: var(--color-white);
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  margin: 0;
+  color: var(--color-footer);
+  font-size: 13px;
+  text-align: center;
+}
+
+.footer-link {
+  color: var(--color-footer);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: var(--color-primary);
+}
+
+.footer-separator {
+  padding: 0 5px;
+}
