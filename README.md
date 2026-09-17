@@ -25,7 +25,7 @@ Las reglas del proyecto original se mantienen estrictamente:
 ## Cómo incluir una imagen de fondo en una etiqueta
 
 Para colocar una imagen de fondo (background) utilizando CSS, tal como se documentó en las actividades previas, debes seguir estos sencillos pasos:
-
+a
 1. **Añade una clase a tu etiqueta HTML:**
    Asegúrate de que el contenedor donde irá el fondo tenga una clase (recuerda que en este proyecto usamos únicamente clases).
    ```html
