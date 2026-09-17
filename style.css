@@ -220,3 +220,18 @@ body {
   border-radius: 10px;
   overflow: hidden;
 }
+
+.feature-image {
+  width: calc(100% - 28px);
+  height: 120px;
+  margin: 14px;
+  margin-bottom: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+
+.feature-image-cloud {
+  background-image: url("images/feat_1.jpg");
+}
