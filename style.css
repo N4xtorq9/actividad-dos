@@ -232,6 +232,33 @@ body {
   border-radius: 8px;
 }
 
+/* =====================================================
+   CONTENIDO DE LAS TARJETAS
+===================================================== */
+
+.feature-content {
+  padding: 15px;
+}
+
+.feature-title {
+  margin: 0 0 9px;
+  color: var(--color-title);
+  font-size: 17px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.feature-description {
+  margin: 0;
+  color: var(--color-text);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* =====================================================
+   TARJETAS
+===================================================== */
+
 .feature-image-cloud {
   background-image: url("images/feat_1.jpg");
 }
