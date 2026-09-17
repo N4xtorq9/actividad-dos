@@ -155,3 +155,36 @@ body {
   font-size: 16px;
   line-height: 1.55;
 }
+
+
+/* =====================================================
+   BOTÓN PRINCIPAL
+===================================================== */
+
+.hero-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 24px;
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hero-button:hover {
+  background-color: var(--color-primary);
+}
+
+.hero-image {
+  width: 350px;
+  height: 350px;
+  flex-shrink: 0;
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
